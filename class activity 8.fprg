@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ubahc"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-12-28 01:22:17 pm"/>
+        <attribute name="created" value="dWJhaGM7TEFQVE9QLVQzTUVNU0FIOzIwMjItMTItMjg7MDE6MTQ6MjEgcG07MjkzOA=="/>
+        <attribute name="edited" value="dWJhaGM7TEFQVE9QLVQzTUVNU0FIOzIwMjItMTItMjg7MDE6MjI6MTcgcG07MTszMDUw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="city" type="String" array="False" size=""/>
+            <output expression="&quot;please enter your city&quot;" newline="True"/>
+            <input variable="city"/>
+            <if expression="city=&quot;nicosia&quot;">
+                <then>
+                    <output expression="&quot;seminar is far from you&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

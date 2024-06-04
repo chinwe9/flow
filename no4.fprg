@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ubahc"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-12-28 04:04:16 pm"/>
+        <attribute name="created" value="dWJhaGM7TEFQVE9QLVQzTUVNU0FIOzIwMjItMTItMjg7MDM6MjQ6MjUgcG07Mjk0NQ=="/>
+        <attribute name="edited" value="dWJhaGM7TEFQVE9QLVQzTUVNU0FIOzIwMjItMTItMjg7MDQ6MDQ6MTYgcG07MTszMDUy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n1, n2, n3" type="Integer" array="False" size=""/>
+            <input variable="n1"/>
+            <input variable="n2"/>
+            <input variable="n3"/>
+            <if expression="n3&gt;n1">
+                <then>
+                    <output expression="&quot;max is n3&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;max is n1&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

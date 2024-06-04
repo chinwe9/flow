@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ubahc"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-01-05 09:08:04 am"/>
+        <attribute name="created" value="dWJhaGM7TEFQVE9QLVQzTUVNU0FIOzIwMjItMTItMjg7MDQ6MTc6MDEgcG07Mjk0Mg=="/>
+        <attribute name="edited" value="dWJhaGM7TEFQVE9QLVQzTUVNU0FIOzIwMjMtMDEtMDU7MDk6MDg6MDQgYW07MTszMDM3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="day" type="Integer" array="False" size=""/>
+            <input variable="day"/>
+            <if expression="&quot;day is 1&quot;">
+                <then>
+                    <output expression="&quot;print monday&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="&quot;day is 2&quot;">
+                        <then>
+                            <output expression="&quot;print tuesday&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="&quot;day is 3&quot;">
+                                <then>
+                                    <output expression="&quot;print wednesday&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="&quot;day is 4&quot;">
+                                        <then>
+                                            <output expression="&quot;print thursday&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="&quot;day is 5&quot;">
+                                                <then>
+                                                    <output expression="&quot;print friday&quot;" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <if expression="&quot;day is 6&quot;">
+                                                        <then>
+                                                            <output expression="&quot;print saturday&quot;" newline="True"/>
+                                                        </then>
+                                                        <else>
+                                                            <if expression="&quot;day is 7&quot;">
+                                                                <then>
+                                                                    <output expression="&quot;print sunday&quot;" newline="True"/>
+                                                                </then>
+                                                                <else/>
+                                                            </if>
+                                                        </else>
+                                                    </if>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

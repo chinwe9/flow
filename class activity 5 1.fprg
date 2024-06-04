@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ubahc"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-12-28 01:09:53 pm"/>
+        <attribute name="created" value="dWJhaGM7TEFQVE9QLVQzTUVNU0FIOzIwMjItMTItMjg7MTA6MzY6MzcgYW07MjkzNA=="/>
+        <attribute name="edited" value="dWJhaGM7TEFQVE9QLVQzTUVNU0FIOzIwMjItMTItMjg7MDE6MDk6NTMgcG07NjszMDYw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="name" type="String" array="False" size=""/>
+            <declare name="surname" type="String" array="False" size=""/>
+            <declare name="birthyear" type="Integer" array="False" size=""/>
+            <declare name="age" type="Integer" array="False" size=""/>
+            <output expression="&quot;your name is&quot;" newline="True"/>
+            <input variable="name"/>
+            <output expression="&quot;your surname is&quot;" newline="True"/>
+            <input variable="surname"/>
+            <output expression="&quot;your birth year is&quot;" newline="True"/>
+            <input variable="birthyear"/>
+            <if expression="birthyear=1997">
+                <then>
+                    <output expression="&quot;your age is 25&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;your age is not 25&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
